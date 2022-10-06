@@ -1,0 +1,62 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "block/block",
+    
+	"textures": {
+		"0": "payday:blocks/money",
+		"particle": "payday:blocks/money"
+    },
+
+	"display": {
+		"thirdperson_righthand": {
+		  	"translation": [0, 7.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+		  	"translation": [0, 7.5, 0.5]
+		},
+		"firstperson_righthand": {
+		  	"translation": [-2, 9.5, 2.5]
+		},
+		"firstperson_lefthand": {
+		  	"translation": [-2, 9.5, 2.5]
+		},
+		"ground": {
+		  	"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [0, -180, -0.25],
+			"translation": [0, 12.75, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 13, -1],
+			"scale": [2, 2, 2]
+		}
+	},
+    
+	"elements": [
+		{
+			"name": "money_item",
+			"from": [5, 0, 8],
+			"to": [11, 3, 9],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 3, 10]},
+			"faces": {
+				"north": {"uv": [6, 8, 9, 9.5], "texture": "#0"},
+				"east": {"uv": [9, 8, 9.5, 9.501], "texture": "#0"},
+				"south": {"uv": [6, 8, 9, 9.501], "texture": "#0"},
+				"west": {"uv": [9, 8, 9.5, 9.5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [6, 10, 9, 9.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [6, 9.5, 9, 10], "texture": "#0"}
+			}
+		}
+    ],
+    
+	"groups": [
+		{
+			"name": "money",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

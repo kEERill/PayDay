@@ -1,0 +1,85 @@
+{
+	"variants": {
+		"bottom=false,facing=north,half=bottom": {
+			"model": "payday:money_double",
+			"y": 0
+		},
+
+		"bottom=false,facing=south,half=bottom": {
+			"model": "payday:money_double",
+			"y": 180
+		},
+
+		"bottom=false,facing=east,half=bottom": {
+			"model": "payday:money_double",
+			"y": 90
+		},
+
+		"bottom=false,facing=west,half=bottom": {
+			"model": "payday:money_double",
+			"y": 270
+		},
+		
+		"bottom=false,facing=north,half=top": {
+			"model": "payday:money_double",
+			"y": 0
+		},
+
+		"bottom=false,facing=south,half=top": {
+			"model": "payday:money_double",
+			"y": 180
+		},
+
+		"bottom=false,facing=east,half=top": {
+			"model": "payday:money_double",
+			"y": 90
+		},
+
+		"bottom=false,facing=west,half=top": {
+			"model": "payday:money_double",
+			"y": 270
+		},
+
+
+
+		"bottom=true,facing=north,half=bottom": {
+			"model": "payday:money_double_mini",
+			"y": 0
+		},
+
+		"bottom=true,facing=south,half=bottom": {
+			"model": "payday:money_double_mini",
+			"y": 180
+		},
+
+		"bottom=true,facing=east,half=bottom": {
+			"model": "payday:money_double_mini",
+			"y": 90
+		},
+
+		"bottom=true,facing=west,half=bottom": {
+			"model": "payday:money_double_mini",
+			"y": 270
+		},
+		
+		"bottom=true,facing=north,half=top": {
+			"model": "payday:money_double_mini",
+			"y": 0
+		},
+
+		"bottom=true,facing=south,half=top": {
+			"model": "payday:money_double_mini",
+			"y": 180
+		},
+
+		"bottom=true,facing=east,half=top": {
+			"model": "payday:money_double_mini",
+			"y": 90
+		},
+
+		"bottom=true,facing=west,half=top": {
+			"model": "payday:money_double_mini",
+			"y": 270
+		}
+	}
+}

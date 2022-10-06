@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "payday:gold"
+		},
+		"facing=south":{ 
+			"model": "payday:gold",
+			"y": 180
+		},
+		"facing=east": {
+			"model": "payday:gold",
+			"y": 90
+		},
+		"facing=west": {
+			"model": "payday:gold",
+			"y": 270
+		}
+	}
+}

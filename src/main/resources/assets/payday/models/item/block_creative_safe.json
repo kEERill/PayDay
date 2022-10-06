@@ -1,0 +1,4 @@
+{
+    "parent": "payday:block/safe",
+    "transform": "forge:default-item"
+}

@@ -1,0 +1,13 @@
+[
+{
+  "modid": "payday",
+  "name": "PayDay Mod",
+  "description": "This is PayDay in Minecraft",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["kEERill", "news1313"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

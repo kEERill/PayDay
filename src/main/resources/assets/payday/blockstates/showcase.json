@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"facing=north,type=none": { "model": "payday:showcase" },
+		"facing=south,type=none": { "model": "payday:showcase", "y": 180 },
+		"facing=east,type=none": { "model": "payday:showcase", "y": 90 },
+		"facing=west,type=none": { "model": "payday:showcase", "y": 270 },
+		"facing=north,type=open": { "model": "payday:showcase_open" },
+		"facing=south,type=open": { "model": "payday:showcase_open", "y": 180 },
+		"facing=east,type=open": { "model": "payday:showcase_open", "y": 90 },
+		"facing=west,type=open": { "model": "payday:showcase_open", "y": 270 },
+		"facing=north,type=c4": { "model": "payday:showcase" },
+        "facing=south,type=c4": { "model": "payday:showcase", "y": 180 },
+        "facing=east,type=c4": { "model": "payday:showcase", "y": 90 },
+        "facing=west,type=c4": { "model": "payday:showcase", "y": 270 }
+	}
+}
