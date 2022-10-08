@@ -1,0 +1,11 @@
+﻿itemGroup.tabPayday=PayDay
+item.wolf.name=Wolf Mask
+item.dallas.name=Dallas Mask
+item.hoxton.name=Hoxton Mask
+item.chains.name=Chains Mask
+item.money.name=Money
+
+tile.block_gold.name=Gold
+tile.block_money.name=Money block
+tile.block_safe_creative.name=Creative safe
+tile.block_drill.name=Drill

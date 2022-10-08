@@ -1,7 +1,7 @@
 package com.keerill.payday.entity.ai;
 
-import com.keerill.payday.BlocksRegistry;
-import com.keerill.payday.ItemsRegistry;
+import com.keerill.payday.block.BlockMoneySlab;
+import com.keerill.payday.registry.ItemsRegistry;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -55,20 +55,15 @@ public class EntityAIEatingMoney extends EntityAIBase
 				? this.nominalSearchLength : this.searchLength;
 						
 			this.runDelay = 200 + this.entity.getRNG().nextInt(200);
-            boolean finded = this.searchForDestination();
+            boolean fined = this.searchForDestination();
 
-            /**
-             * Ситуация, когда сущность сломала блок и попыталась найти
-             * ещё один по близости в радиусе двух блоков и не нашла, то делаем
-             * почти сразу же новый поиск с номинальным радиусом
-             */
-            if (!finded && this.searchLength != this.nominalSearchLength)
+            if (!fined && this.searchLength != this.nominalSearchLength)
             {
             	this.searchLength = this.nominalSearchLength;
             	this.runDelay = this.entity.getRNG().nextInt(25) + 10;
             }
             
-            return finded;
+            return fined;
 		}
 
         --this.runDelay;
@@ -146,13 +141,9 @@ public class EntityAIEatingMoney extends EntityAIBase
 	protected boolean shouldMoveTo(World worldIn, BlockPos pos) 
 	{
 		IBlockState state = worldIn.getBlockState(pos);
-		return state.getBlock() == BlocksRegistry.MONEY_DOUBLE || state.getBlock() == BlocksRegistry.MONEY;
+		return state.getBlock() instanceof BlockMoneySlab;
 	}
 	
-	/**
-	 * Возвращает true, во время активной работы пути сущности к блоку
-	 * @return boolean
-	 */
 	private boolean continueExecuting()
 	{
 		return !this.endedTask && this.timeoutCounter <= 400;

@@ -1,34 +1,34 @@
 {
 	"variants": {
 		"facing=north,half=top": {
-			"model": "payday:gold"
+			"model": "payday:gold_double"
 		},
 		"facing=south,half=top":{
-			"model": "payday:gold",
+			"model": "payday:gold_double",
 			"y": 180
 		},
 		"facing=east,half=top": {
-			"model": "payday:gold",
+			"model": "payday:gold_double",
 			"y": 90
 		},
 		"facing=west,half=top": {
-			"model": "payday:gold",
+			"model": "payday:gold_double",
 			"y": 270
 		},
 
 		"facing=north,half=bottom": {
-			"model": "payday:gold"
+			"model": "payday:gold_double"
 		},
 		"facing=south,half=bottom":{
-			"model": "payday:gold",
+			"model": "payday:gold_double",
 			"y": 180
 		},
 		"facing=east,half=bottom": {
-			"model": "payday:gold",
+			"model": "payday:gold_double",
 			"y": 90
 		},
 		"facing=west,half=bottom": {
-			"model": "payday:gold",
+			"model": "payday:gold_double",
 			"y": 270
 		}
 	}

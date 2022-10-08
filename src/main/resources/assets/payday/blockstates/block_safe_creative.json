@@ -1,0 +1,43 @@
+{
+	"variants": {
+		"facing=north,state=opened": {
+			"model": "payday:safe_open",
+			"y": 180
+		},
+
+		"facing=south,state=opened": {
+			"model": "payday:safe_open", 
+			"y": 0
+		},
+
+		"facing=east,state=opened": {
+			"model": "payday:safe_open", 
+			"y": 270
+		},
+
+		"facing=west,state=opened": {
+			"model": "payday:safe_open",
+			"y": 90
+		},
+
+		"facing=north,state=closed": {
+			"model": "payday:safe",
+			"y": 180
+		},
+
+		"facing=south,state=closed": {
+			"model": "payday:safe", 
+			"y": 0
+		},
+
+		"facing=east,state=closed": {
+			"model": "payday:safe", 
+			"y": 270
+		},
+
+		"facing=west,state=closed": {
+			"model": "payday:safe",
+			"y": 90
+		}
+	}
+}

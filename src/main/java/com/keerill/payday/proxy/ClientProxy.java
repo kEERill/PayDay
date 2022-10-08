@@ -1,14 +1,17 @@
 package com.keerill.payday.proxy;
 
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
-import com.keerill.payday.BlocksRegistry;
+import com.keerill.payday.registry.BlocksRegistry;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+
+import java.util.Objects;
 
 public class ClientProxy extends CommonProxy
 {
@@ -30,8 +33,9 @@ public class ClientProxy extends CommonProxy
     }
     
     @Override
-    public void registerItemRenderer(Item item, int meta, String name) 
+    public void registerItemRenderer(Item item, int meta)
     {
-    	ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(name, "inventory"));
+        ResourceLocation registryName = Objects.requireNonNull(item.getRegistryName());
+    	ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(registryName, "inventory"));
     }
 }

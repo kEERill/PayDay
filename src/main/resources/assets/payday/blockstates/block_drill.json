@@ -1,41 +1,41 @@
 {
 	"variants": {
-		"facing=north,state=worker": {
+		"facing=north,state=work": {
 			"model": "payday:drill",
 			"y": 180
 		},
 
-		"facing=south,state=worker": { 
+		"facing=south,state=work": {
 			"model": "payday:drill",
 			"y": 0
 		},
 
-		"facing=east,state=worker": {
+		"facing=east,state=work": {
 			"model": "payday:drill",
 			"y": 270
 		},
 
-		"facing=west,state=worker": {
+		"facing=west,state=work": {
 			"model": "payday:drill",
 			"y": 90
 		},
 
-		"facing=north,state=notworker": {
+		"facing=north,state=not_work": {
 			"model": "payday:drill",
 			"y": 180
 		},
 
-		"facing=south,state=notworker": { 
+		"facing=south,state=not_work": {
 			"model": "payday:drill",
 			"y": 0
 		},
 
-		"facing=east,state=notworker": {
+		"facing=east,state=not_work": {
 			"model": "payday:drill",
 			"y": 270
 		},
 
-		"facing=west,state=notworker": {
+		"facing=west,state=not_work": {
 			"model": "payday:drill",
 			"y": 90
 		}

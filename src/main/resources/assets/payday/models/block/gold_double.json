@@ -1,0 +1,1474 @@
+{
+	"parent": "block/block",
+
+	"textures": {
+		"0": "payday:blocks/gold",
+		"particle": "payday:blocks/gold"
+	},
+	"elements": [
+		{
+			"name": "GoldIngot",
+			"from": [11, 14, 8.5],
+			"to": [14, 15, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 14, 1.5],
+			"to": [14, 15, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 14, 8.5],
+			"to": [9.5, 15, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 14, 1.5],
+			"to": [9.5, 15, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 14, 8.5],
+			"to": [5, 15, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 14, 1.5],
+			"to": [5, 15, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 15, 8.5],
+			"to": [11.75, 16, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 15, 1.5],
+			"to": [11.75, 16, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 15, 8.5],
+			"to": [7.25, 16, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 15, 1.5],
+			"to": [7.25, 16, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 12, 8.5],
+			"to": [14, 13, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 12, 1.5],
+			"to": [14, 13, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 12, 8.5],
+			"to": [9.5, 13, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 12, 1.5],
+			"to": [9.5, 13, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 12, 8.5],
+			"to": [5, 13, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 12, 1.5],
+			"to": [5, 13, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 13, 8.5],
+			"to": [11.75, 14, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 13, 1.5],
+			"to": [11.75, 14, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 13, 8.5],
+			"to": [7.25, 14, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 13, 1.5],
+			"to": [7.25, 14, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 10, 8.5],
+			"to": [14, 11, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 10, 1.5],
+			"to": [14, 11, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 10, 8.5],
+			"to": [9.5, 11, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 10, 1.5],
+			"to": [9.5, 11, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 10, 8.5],
+			"to": [5, 11, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 10, 1.5],
+			"to": [5, 11, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 11, 8.5],
+			"to": [11.75, 12, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 11, 1.5],
+			"to": [11.75, 12, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 11, 8.5],
+			"to": [7.25, 12, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 11, 1.5],
+			"to": [7.25, 12, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 8, 8.5],
+			"to": [14, 9, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 8, 1.5],
+			"to": [14, 9, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 8, 8.5],
+			"to": [9.5, 9, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 8, 1.5],
+			"to": [9.5, 9, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 8, 8.5],
+			"to": [5, 9, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 8, 1.5],
+			"to": [5, 9, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 9, 8.5],
+			"to": [11.75, 10, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 9, 1.5],
+			"to": [11.75, 10, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 9, 8.5],
+			"to": [7.25, 10, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 9, 1.5],
+			"to": [7.25, 10, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 6, 8.5],
+			"to": [14, 7, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 6, 1.5],
+			"to": [14, 7, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 6, 8.5],
+			"to": [9.5, 7, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 6, 1.5],
+			"to": [9.5, 7, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 6, 8.5],
+			"to": [5, 7, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 6, 1.5],
+			"to": [5, 7, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 7, 8.5],
+			"to": [11.75, 8, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 7, 1.5],
+			"to": [11.75, 8, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 7, 8.5],
+			"to": [7.25, 8, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 7, 1.5],
+			"to": [7.25, 8, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 4, 8.5],
+			"to": [14, 5, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 4, 1.5],
+			"to": [14, 5, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 4, 8.5],
+			"to": [9.5, 5, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 4, 1.5],
+			"to": [9.5, 5, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 4, 8.5],
+			"to": [5, 5, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 4, 1.5],
+			"to": [5, 5, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 5, 8.5],
+			"to": [11.75, 6, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 5, 1.5],
+			"to": [11.75, 6, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 5, 8.5],
+			"to": [7.25, 6, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 5, 1.5],
+			"to": [7.25, 6, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 2, 8.5],
+			"to": [14, 3, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 2, 1.5],
+			"to": [14, 3, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 2, 8.5],
+			"to": [9.5, 3, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 2, 1.5],
+			"to": [9.5, 3, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 2, 8.5],
+			"to": [5, 3, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 2, 1.5],
+			"to": [5, 3, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 3, 8.5],
+			"to": [11.75, 4, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 3, 1.5],
+			"to": [11.75, 4, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 3, 8.5],
+			"to": [7.25, 4, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 3, 1.5],
+			"to": [7.25, 4, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 0, 8.5],
+			"to": [14, 1, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [11, 0, 1.5],
+			"to": [14, 1, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 0, 8.5],
+			"to": [9.5, 1, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [6.5, 0, 1.5],
+			"to": [9.5, 1, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 0, 8.5],
+			"to": [5, 1, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [2, 0, 1.5],
+			"to": [5, 1, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 1, 8.5],
+			"to": [11.75, 2, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [8.75, 1, 1.5],
+			"to": [11.75, 2, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 1, 8.5],
+			"to": [7.25, 2, 14.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "GoldIngot",
+			"from": [4.25, 1, 1.5],
+			"to": [7.25, 2, 7.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 8, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.5, 5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Repeat 4",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [0, 1]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [2, 3]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [4, 5]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [6, 7]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [8, 9]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Repeat 3",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [10, 11]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [12, 13]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [14, 15]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [16, 17]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [18, 19]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Repeat 2",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [20, 21]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [22, 23]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [24, 25]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [26, 27]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [28, 29]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Repeat 1",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [30, 31]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [32, 33]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [34, 35]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [36, 37]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [38, 39]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Repeat 4",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [40, 41]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [42, 43]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [44, 45]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [46, 47]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [48, 49]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Repeat 3",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [50, 51]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [52, 53]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [54, 55]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [56, 57]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [58, 59]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Repeat 2",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [60, 61]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [62, 63]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [64, 65]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [66, 67]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [68, 69]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Repeat 1",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Row1",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [70, 71]
+								},
+								{
+									"name": "Column 2",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [72, 73]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [74, 75]
+								}
+							]
+						},
+						{
+							"name": "Row2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "Column 1",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [76, 77]
+								},
+								{
+									"name": "Column 3",
+									"origin": [0, 0, 0],
+									"color": 0,
+									"children": [78, 79]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

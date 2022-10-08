@@ -1,10 +1,12 @@
 [
 {
   "modid": "payday",
-  "name": "PayDay Mod",
-  "description": "This is PayDay in Minecraft",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "name": "PayDay Minecraft Mod",
+  "description": "PayDay in Minecraft",
+  "version": "3.0",
+  "mcversion": "1.11.2",
+  "url": "https://github.com/kEERill/PayDay",
+  "updateUrl": "",
   "authorList": ["kEERill", "news1313"],
   "logoFile": "",
   "screenshots": [],

@@ -1,9 +1,9 @@
 package com.keerill.payday.gui;
 
+import com.keerill.payday.PayDay;
 import org.lwjgl.opengl.GL11;
 
-import com.keerill.payday.PayDayMinecraft;
-import com.keerill.payday.blocks.tile.TileEntityDrill;
+import com.keerill.payday.tileentity.TileEntityDrill;
 import com.keerill.payday.gui.containers.ContainerDrill;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -15,7 +15,7 @@ public class GuiDrill extends GuiContainer
 	public static final int ID = 0;
 	
 	protected TileEntityDrill tileEntity;
-	protected static final ResourceLocation textures = new ResourceLocation(PayDayMinecraft.MODID, "textures/gui/drill.png");
+	protected static final ResourceLocation textures = new ResourceLocation(PayDay.MOD_ID, "textures/gui/drill.png");
 	
 	public GuiDrill(IInventory playerInventory, TileEntityDrill tileEntity) 
 	{
@@ -45,8 +45,7 @@ public class GuiDrill extends GuiContainer
         
         this.drawCenteredString(fontRenderer, this.tileEntity.state.getMessage(), x + this.xSize/2, y + 28, 12955682);
         
-        if (this.tileEntity.isWork()) 
-        {
+        if (this.tileEntity.isWork()) {
         	this.drawCenteredString(fontRenderer, "Seconds remaining", x + this.xSize/2, y + 80, 12955682);
         	this.drawCenteredString(fontRenderer, seconds, x + this.xSize/2, y + 90, 12955682);
         }

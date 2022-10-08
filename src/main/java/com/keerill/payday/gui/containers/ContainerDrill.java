@@ -1,6 +1,6 @@
 package com.keerill.payday.gui.containers;
 
-import com.keerill.payday.blocks.tile.TileEntityDrill;
+import com.keerill.payday.tileentity.TileEntityDrill;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
@@ -20,5 +20,4 @@ public class ContainerDrill extends Container
 	{
 		return true;
 	}
-
 }

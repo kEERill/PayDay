@@ -40,8 +40,6 @@
 			"y": 270
 		},
 
-
-
 		"bottom=true,facing=north,half=bottom": {
 			"model": "payday:money_double_mini",
 			"y": 0

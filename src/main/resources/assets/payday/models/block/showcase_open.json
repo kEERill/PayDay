@@ -1,5 +1,6 @@
 {
-    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "parent": "block/block",
+
     "textures": {
         "particle": "payday:blocks/showcase",
         "0": "payday:blocks/showcase_outside",
@@ -8,6 +9,7 @@
         "3": "payday:blocks/showcase_side",
         "4": "payday:blocks/showcase_glass_col"
     },
+
     "elements": [
         {
             "name": "showcase1",

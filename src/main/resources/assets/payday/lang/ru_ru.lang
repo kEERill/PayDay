@@ -1,0 +1,11 @@
+﻿itemGroup.tabPayday=PayDay
+item.wolf.name=Маска Wolf
+item.dallas.name=Маска Dallas
+item.hoxton.name=Маска Hoxton
+item.chains.name=Маска Chains
+item.money.name=Купюра
+
+tile.block_gold.name=Золото
+tile.block_money.name=Блок купюр
+tile.block_safe_creative.name=Креативный сейф
+tile.block_drill.name=Дрель

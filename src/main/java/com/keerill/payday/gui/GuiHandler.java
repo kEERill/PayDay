@@ -1,6 +1,6 @@
 package com.keerill.payday.gui;
 
-import com.keerill.payday.blocks.tile.TileEntityDrill;
+import com.keerill.payday.tileentity.TileEntityDrill;
 import com.keerill.payday.gui.containers.ContainerDrill;
 
 import net.minecraft.entity.player.EntityPlayer;
