@@ -43,10 +43,10 @@ public class GuiDrill extends GuiContainer
     	
         this.fontRenderer.drawString("Drill Model S 2.1", x + 12, y + 8, 0);
         
-        this.drawCenteredString(fontRenderer, this.tileEntity.state.getMessage(), x + this.xSize/2, y + 28, 12955682);
+        this.drawCenteredString(fontRenderer, this.tileEntity.state.getMessage().toUpperCase(), x + this.xSize/2, y + 28, 12955682);
         
         if (this.tileEntity.isWork()) {
-        	this.drawCenteredString(fontRenderer, "Seconds remaining", x + this.xSize/2, y + 80, 12955682);
+        	this.drawCenteredString(fontRenderer, "Seconds remaining".toUpperCase(), x + this.xSize/2, y + 80, 12955682);
         	this.drawCenteredString(fontRenderer, seconds, x + this.xSize/2, y + 90, 12955682);
         }
 	}

@@ -6,7 +6,6 @@ import com.keerill.payday.block.*;
 import com.keerill.payday.item.ItemGoldSlab;
 import net.minecraft.block.BlockSlab;
 
-import com.keerill.payday.tileentity.renderer.TileEntitySafeSpecialRender;
 import com.keerill.payday.item.ItemMoneySlab;
 
 import net.minecraft.block.Block;
@@ -14,7 +13,6 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemSlab;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.util.Objects;
@@ -28,7 +26,7 @@ public class BlocksRegistry
 	public static final BlockMoneySlab MONEY;
 	public static final BlockMoneyDoubleSlab MONEY_DOUBLE;
 	public static final ItemMoneySlab MONEY_ITEM;
-	public static final BlockSafe CREATIVE_SAFE;
+	public static final BlockSafeCreative CREATIVE_SAFE;
 	public static BlockDrill DRILL;
 
 	static
@@ -51,7 +49,7 @@ public class BlocksRegistry
 				.setRegistryName(PayDay.MOD_ID,"block_drill")
 				.setUnlocalizedName("block_drill");
 
-		CREATIVE_SAFE = (BlockSafe) new BlockSafeCreative()
+		CREATIVE_SAFE = (BlockSafeCreative) new BlockSafeCreative()
 				.setCreativeTab(PayDay.PayDayTab)
 				.setRegistryName(PayDay.MOD_ID, "block_safe_creative")
 				.setUnlocalizedName("block_safe_creative");
@@ -102,11 +100,6 @@ public class BlocksRegistry
 	private static void registerBlock(Block block)
 	{
 		registerBlock(block, new ItemBlock(block));
-	}
-	
-	public static void registerTileEntitiesSpecialRenderer()
-	{
-		ClientRegistry.bindTileEntitySpecialRenderer(CREATIVE_SAFE.getTileEntityClass(), new TileEntitySafeSpecialRender());
 	}
 
 	@SubscribeEvent

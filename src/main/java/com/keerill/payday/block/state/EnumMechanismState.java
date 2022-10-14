@@ -2,15 +2,15 @@ package com.keerill.payday.block.state;
 
 import net.minecraft.util.IStringSerializable;
 
-public enum EnumToolState implements IStringSerializable {
+public enum EnumMechanismState implements IStringSerializable {
     WORK(0),
     NOT_WORK(1);
 
-    private static final EnumToolState[] META_LOOKUP = new EnumToolState[values().length];
+    private static final EnumMechanismState[] META_LOOKUP = new EnumMechanismState[values().length];
 
     private final int meta;
 
-    EnumToolState(int meta)
+    EnumMechanismState(int meta)
     {
         this.meta = meta;
     }
@@ -27,7 +27,7 @@ public enum EnumToolState implements IStringSerializable {
     }
 
 
-    public static EnumToolState byMetadata(int index)
+    public static EnumMechanismState byMetadata(int index)
     {
         if (index < 0 || index > META_LOOKUP.length)
         {
@@ -39,7 +39,7 @@ public enum EnumToolState implements IStringSerializable {
 
     static
     {
-        for (EnumToolState state : values())
+        for (EnumMechanismState state : values())
         {
             META_LOOKUP[state.getMetadata()] = state;
         }

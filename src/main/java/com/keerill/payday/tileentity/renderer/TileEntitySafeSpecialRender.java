@@ -2,7 +2,7 @@ package com.keerill.payday.tileentity.renderer;
 
 
 import com.keerill.payday.block.BlockSafe;
-import com.keerill.payday.tileentity.TileEntitySafe;
+import com.keerill.payday.tileentity.TileEntitySafeCreative;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
@@ -13,13 +13,13 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 
-public class TileEntitySafeSpecialRender extends TileEntitySpecialRenderer<TileEntitySafe>
+public class TileEntitySafeSpecialRender extends TileEntitySpecialRenderer<TileEntitySafeCreative>
 {
 	private final EntityItem entityItem = new EntityItem(Minecraft.getMinecraft().world, 0D, 0D, 0D);
 	
 	@Override
-	public void render(TileEntitySafe tileentity, double x, double y, double z, float partialTicks, int destroyStage,
-			float alpha) {
+	public void render(TileEntitySafeCreative tileentity, double x, double y, double z, float partialTicks, int destroyStage,
+                       float alpha) {
 		
 		this.entityItem.hoverStart = 0.0F;
 
@@ -52,7 +52,6 @@ public class TileEntitySafeSpecialRender extends TileEntitySpecialRenderer<TileE
 			
 			GlStateManager.pushMatrix();
 			{
-
 				int rotate = -90 * facing.getHorizontalIndex();
 				
 				GlStateManager.translate(x, y, z);

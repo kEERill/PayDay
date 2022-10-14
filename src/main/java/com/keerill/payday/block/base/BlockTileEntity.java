@@ -1,6 +1,7 @@
 package com.keerill.payday.block.base;
 
 import com.keerill.payday.block.IBlockTileEntity;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.block.material.Material;
@@ -11,6 +12,8 @@ public abstract class BlockTileEntity<T extends TileEntity> extends BlockHorizon
 	public BlockTileEntity(Material material)
 	{
 		super(material);
+
+		this.hasTileEntity = true;
 	}
 	
 	@Override
@@ -23,4 +26,11 @@ public abstract class BlockTileEntity<T extends TileEntity> extends BlockHorizon
 	
 	@Override
 	public abstract T createTileEntity(World world, IBlockState state);
+
+	public void breakBlock(World worldIn, BlockPos pos, IBlockState state)
+	{
+		super.breakBlock(worldIn, pos, state);
+
+		worldIn.removeTileEntity(pos);
+	}
 }

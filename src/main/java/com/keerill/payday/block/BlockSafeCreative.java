@@ -1,63 +1,91 @@
 package com.keerill.payday.block;
 
-import java.util.List;
+import com.keerill.payday.block.base.BlockStorage;
+import com.keerill.payday.block.state.EnumStorageState;
+import com.keerill.payday.tileentity.TileEntitySafeCreative;
 
-import com.keerill.payday.tileentity.TileEntitySafe;
-
+import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.item.ItemStack;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldServer;
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.storage.loot.LootTable;
 
-public class BlockSafeCreative extends BlockSafe implements IBlockStorageDrillable
+public class BlockSafeCreative extends BlockStorage<TileEntitySafeCreative>
 {
-	@Override
-	public int getHackingSeconds() 
+	public BlockSafeCreative()
 	{
-		return 80;
+		super(Material.IRON);
+
+		this.setBlockUnbreakable();
+
+		this.setDefaultState(
+			this.getDefaultState()
+				.withProperty(STATE, EnumStorageState.CLOSED)
+		);
+	}
+
+	@Override
+	public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer) {
+		return super.getStateForPlacement(world, pos, facing, hitX, hitY, hitZ, meta, placer)
+			.withProperty(STATE, EnumStorageState.CLOSED);
 	}
 	
 	@Override
-	public Class<TileEntitySafe> getTileEntityClass() 
+	public Class<TileEntitySafeCreative> getTileEntityClass()
 	{
-		return TileEntitySafe.class;
+		return TileEntitySafeCreative.class;
 	}
 
 	@Override
-	public TileEntitySafe createTileEntity(World world, IBlockState state) 
+	public TileEntitySafeCreative createTileEntity(World world, IBlockState state)
 	{
-		return new TileEntitySafe();
+		return new TileEntitySafeCreative();
 	}
 	
 	@Override
 	public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state) 
 	{
 		super.onBlockAdded(worldIn, pos, state);
-		
+
+		if (worldIn.isRemote) {
+			return;
+		}
+
 		TileEntity tileEntity = worldIn.getTileEntity(pos);
-		
-		if(tileEntity instanceof TileEntitySafe) {
-			if (!worldIn.isRemote) {
-				LootTable lootTable = worldIn.getLootTableManager()
-						.getLootTableFromLocation(new ResourceLocation("payday:creative_safe"));
-				
-				LootContext ctx = new LootContext.Builder((WorldServer) worldIn)
-					    .build();
-				
-				List<ItemStack> stacks = lootTable.generateLootForPools(worldIn.rand, ctx);
-				
-				if (!stacks.isEmpty()) {
-					TileEntitySafe tileEntitySafe = (TileEntitySafe) tileEntity;
-					tileEntitySafe.setItem(0, stacks.get(0));									
-				}
-			}
-			
+
+		if(tileEntity instanceof TileEntitySafeCreative) {
+			TileEntitySafeCreative targetStorage = (TileEntitySafeCreative) tileEntity;
+			targetStorage.setupItem(worldIn);
+
 			worldIn.notifyBlockUpdate(pos, state, state, 3);
 		}
+	}
+
+	@Override
+	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn,
+									EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
+	{
+		if (playerIn.isSneaking()) {
+			return false;
+		}
+
+		TileEntity tileEntity = worldIn.getTileEntity(pos);
+
+		if(tileEntity instanceof TileEntitySafeCreative) {
+			TileEntitySafeCreative tileEntityStorage = (TileEntitySafeCreative) tileEntity;
+
+			if(state.getValue(STATE) == EnumStorageState.OPENED) {
+				if (!worldIn.isRemote) {
+					tileEntityStorage.getItemForPlayer(playerIn);
+					worldIn.notifyBlockUpdate(pos, state, state, 2);
+				}
+			}
+		}
+
+		return true;
 	}
 }

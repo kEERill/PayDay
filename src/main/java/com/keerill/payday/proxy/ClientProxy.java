@@ -1,13 +1,14 @@
 package com.keerill.payday.proxy;
 
+import com.keerill.payday.tileentity.TileEntitySafeCreative;
+import com.keerill.payday.tileentity.renderer.TileEntitySafeSpecialRender;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-
-import com.keerill.payday.registry.BlocksRegistry;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
@@ -19,7 +20,7 @@ public class ClientProxy extends CommonProxy
     {
     	super.preInit(event);
     	
-    	BlocksRegistry.registerTileEntitiesSpecialRenderer();
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySafeCreative.class, new TileEntitySafeSpecialRender());
     }
 
     public void init(FMLInitializationEvent event)

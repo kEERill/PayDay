@@ -19,8 +19,8 @@ public abstract class BlockHorizontal extends Block
 		super(material);
 		
 		this.setDefaultState(
-                this.blockState.getBaseState()
-                        .withProperty(FACING, EnumFacing.NORTH)
+            this.blockState.getBaseState()
+                .withProperty(FACING, EnumFacing.NORTH)
         );
 	}
 	
@@ -40,20 +40,21 @@ public abstract class BlockHorizontal extends Block
     public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer)
     {
         return this.getDefaultState()
-                .withProperty(FACING, placer.getHorizontalFacing());
+            .withProperty(FACING, placer.getHorizontalFacing());
     }
 
     @Override
     public int getMetaFromState(IBlockState state)
     {
-        return state.getValue(FACING).getHorizontalIndex();
+        return state.getValue(FACING)
+            .getHorizontalIndex();
     }
 
     @Override
     public IBlockState getStateFromMeta(int meta)
     {
         return this.getDefaultState()
-                .withProperty(FACING, EnumFacing.getHorizontal(meta));
+            .withProperty(FACING, EnumFacing.getHorizontal(meta));
     }
     
     @Override
